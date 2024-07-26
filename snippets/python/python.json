@@ -222,13 +222,13 @@
         "description": "try/except/else/finally blocks"
     },
     "Jupyter cell": {
-        "prefix": "#cell",
-        "body": "# %%",
+        "prefix": "~",
+        "body": "###",
         "description": "Add a new cell"
     },
-    "Jupyter markdown cell": {
-        "prefix": "#mark",
-        "body": "# %% [markdown]",
-        "description": "Add a new markdown cell"
-    }
+    "comp_diff":{
+		"prefix":"#comp",
+		"body": ["$1.merge($2,indicator = True, how='outer').loc[lambda x : x['_merge']!='both']"],
+		"description": "compare 2 dataframe"
+	}
 }
