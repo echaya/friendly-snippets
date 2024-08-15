@@ -45,8 +45,6 @@
                 "language": "pydoc",
                 "path": "./snippets/python/pydoc.json"
             }
-            }
-    }
         ]
     }
 }
