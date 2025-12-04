@@ -35,8 +35,8 @@
 		"description": "print last row"
 	},
     "to_datetime":{
-		"prefix":"~to_datetime",
+		"prefix":"~todt",
 		"body": ["$1 = pd.to_datetime($1)"],
-		"description": "print last row"
+		"description": "to_datetime"
 	}
 }
